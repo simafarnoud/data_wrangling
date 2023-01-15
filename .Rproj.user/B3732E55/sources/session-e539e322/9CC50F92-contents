@@ -1,0 +1,26 @@
+---
+title: "data wrangling"
+author: "Sima Farnoud"
+date: "15/01/2023"
+output: html_document
+---
+
+Read libraries
+```{r}
+
+library(dplyr)
+library(tidyverse)
+library(datasets)
+
+```
+
+
+
+
+```{r}
+data("iris")
+head(iris)
+# summary of dataset and data structure 
+str(iris)
+```
+
